@@ -1,0 +1,103 @@
+.page {
+    font-family: sans-serif;
+    width: 750px;
+    height: 200px;
+    padding: 15px 20px 250px;
+    border: 1px solid #354a5a;
+}
+#form1 {
+ float:left;
+ width:350px;
+ height: 250px;
+ padding-right: 100px;
+}
+#form2 {
+ float:left;
+ width:350px;
+ height: 250px;
+}
+.form {
+    display: inline-table;
+    /*width: 5000%;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.right-padded {
+	background-color: #354a5a;
+	width: 100px;
+	padding-left: 175px;
+}
+form > input{
+	width: 250px;
+}
+
+#left {
+	float: left;
+}
+
+#right{
+	float: right;
+}
+
+.left {
+    padding-right: 10px;
+}
+
+.right {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.light {
+    background-color: #ececec;
+    color: #354a5a
+}
+
+.light * {
+    color: #354a5a
+}
+
+.dark {
+    background-color: #354a5a;
+    color: #fff;
+}
+
+.dark * {
+    color: #fff;
+}
+input[type=text] {
+ padding: 10px 10px;
+  background-color: white;
+  color: #354a5a;
+}
+input[type=password] {
+  padding: 10px 10px;
+  background-color: white;
+  color: #354a5a;
+}
+input[type=submit] {
+  padding: 5px 5px;
+  background-color: white;
+  color: #354a5a;
+}
+input[align=right] {
+  float: right;
+}
+input[text_color=theme]{
+	width: 100px;
+	background-color: #354a5a;
+	color: white;
+	padding: 10px 10px;
+	border-color: white;
+	border-bottom-color: white;
+	border-right-color: white;
+	border-style: solid;
+	border-width: 3px;
+}
+input[name=register]{
+	color: #345a5a;
+	border-color: #345a5a;
+	border-style: solid;
+	width: 150px;
+}

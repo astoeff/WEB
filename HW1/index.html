@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Домашно 1</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="page light">
+			<h1> Потребителски панел </h1>
+			<p> За да се запишете за курс създайте нов акаунт или влезте в съществуващ такъв.</p>
+
+			<form id=form1 class="form left light" action="" method="post">
+					<legend class="label"> Регистрация </legend>
+					<input type="text" name="username" placeholder="Потребителско име" />
+                	<input type="text" name="Email" placeholder="E-mail" />
+                	<input type="password" name="password" placeholder="Парола" />
+               	    <input type="password" name="repeat password" placeholder="Потвърди паролата" />
+                	<input type="submit" class="right" name="register" value="Регистрирай се" align="right" style="font-weight: bold;"/>
+					<!-- <label class="label"><input placeholder="Потребителско име"></label>
+					<label class="label"><input placeholder="E-mail"></label>
+					<label class="label"><input placeholder="Парола"></label>
+					<label class="label"><input placeholder="Потвърди паролата"></label>
+					<button class="label">Регистрирай се</button> -->
+				<!-- </fieldset> -->
+			</form>
+
+			<form id=form2 class="form right dark" action="" method="post">
+					<legend> Вход </legend>
+					<input type="text" name="username" placeholder="Потребителско име" />
+                	<input type="password" name="password" placeholder="Парола" />
+                	<div id="left">
+                		<input type="checkbox" name="remember" id="remember" />
+                		<label for="remember">Запомняне?</label>
+                	</div>
+                	<div class="right-padded">
+                		<input type="submit" class="right" name="login" value="Влез" text_color="theme"/>
+                	</div>
+                	
+                	<div id="right">
+                		<a href="#" target="_blank">Забравена парола</a>
+                	</div>
+                	<!-- <label class="label2"><input placeholder="Потребителско име"></label>
+					<label><input class="label2" placeholder="Парола"></label>
+					<button>Влез</button>
+					
+					
+                	<label for="remember">Запомняне?</label>
+                	<a><ins><br>Забравена парола</br></ins></a> -->
+                	<!-- <input type="checkbox" name="remember" id="remember" >
+               		 <label for="remember">Запомняне?</label>
+                	<input type="submit" class="right" name="login" value="Влез" />
+               		 
+               		 <legend>Вход</legend>
+                	<input type="text" name="username" placeholder="Потребителско име" />
+                	<input type="password" name="password" placeholder="Парола" >
+                	<input type="checkbox" name="remember" id="remember" >
+                	<label for="remember">Запомняне?</label>
+                	<input type="submit" class="right" name="login" value="Влез" /> -->
+                	<!-- <a href="#" target="_blank">Забравена парола</a> -->
+			</form>
+		</div>
+	</body>
+</html>
