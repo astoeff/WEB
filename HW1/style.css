@@ -18,12 +18,10 @@
 }
 .form {
     display: inline-table;
-    /*width: 5000%;*/
     padding-top: 10px;
     padding-bottom: 10px;
     box-sizing: border-box;
 }
-
 .right-padded {
 	background-color: #354a5a;
 	width: 100px;
@@ -32,37 +30,30 @@
 form > input{
 	width: 250px;
 }
-
 #left {
 	float: left;
 }
-
 #right{
 	float: right;
 }
-
 .left {
     padding-right: 10px;
 }
-
 .right {
     padding-left: 5px;
     padding-right: 10px;
 }
 .light {
     background-color: #ececec;
-    color: #354a5a
+    color: #354a5a;
 }
-
 .light * {
-    color: #354a5a
+    color: #354a5a;
 }
-
 .dark {
     background-color: #354a5a;
     color: #fff;
 }
-
 .dark * {
     color: #fff;
 }
@@ -95,9 +86,17 @@ input[text_color=theme]{
 	border-style: solid;
 	border-width: 3px;
 }
+input[text_color=theme]:hover {
+  background-color: white;
+  color: #345a5a;
+}
 input[name=register]{
 	color: #345a5a;
 	border-color: #345a5a;
 	border-style: solid;
 	width: 150px;
+}
+input[name=register]:hover{
+  background-color: #345a5a;
+  color: white;
 }
